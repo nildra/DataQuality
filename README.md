@@ -1,11 +1,13 @@
 # DataQuality
 
-## How to run IOTDB 
+## How to setup IOTDB
+Install Apache IoTDB [here](https://iotdb.apache.org/UserGuide/V1.2.x/QuickStart/QuickStart.html)
+            
     run the serveur:
-        ./start-standalone.sh
+        in /sbin folder: ./start-standalone.sh
 
     run the client:
-        ./start-cli.sh -h 127.0.0.1 -p 6667 -u root -pw root
+        in /sbin folder: ./start-cli.sh -h 127.0.0.1 -p 6667 -u root -pw root
 
 ## How to run the demo
     1) Add data from a csv file into IoTDB:
