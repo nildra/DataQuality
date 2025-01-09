@@ -14,7 +14,7 @@ session = Session(IOTDB_HOST, IOTDB_PORT, USERNAME, PASSWORD)
 session.open(False)
 
 # Fichier CSV et chemin IoTDB
-csv_file = "exchange_rate_with_missing.csv"
+csv_file = "../datasets/exchange_rate_with_missing.csv"
 timeseries_path = "root.sg1.device1.projetv7"
 
 # Fonction pour convertir une date au format AAAA/MM/JJ HH:MM en timestamp
